@@ -1,14 +1,15 @@
 {% extends "vids/header.html" %}
 {% block content %}
 {% load static %}
-{% for post in object_list %}
-<div class="video-container">
-	<h2>{{ post.title }}</h2>
-	<p>{{ post.date }}</p>
-	<video width="380" height="675" controls>
-		<source src="{{post.video.url}}" type="video/mp4">
-	</video>
-		<p>{{ post.body}}</p>
+
+    {% for post in object_list %}
+    <div class="video-container">
+    	<h2>{{ post.title }}</h2>
+    	<p>{{ post.date }}</p>
+    	<video width="380" height="675" controls>
+    		<source src="{{post.video.url}}" type="video/mp4">
+    	</video>
+    	<p>{{ post.body}}</p>
 	</div>
 	{% endfor %}
 
