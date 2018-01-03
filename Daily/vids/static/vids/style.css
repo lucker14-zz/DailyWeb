@@ -1,0 +1,40 @@
+body {
+	background: white;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	margin: 0;
+}
+
+nav {
+	background: #FF0000;
+	width: 100vw;
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.text-container {
+	width: 800px;
+}
+
+.container {
+	max-width: 800px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 48px;
+	color: white;
+	display: block;
+}
+
+.video-container {
+	width: 380px;
+}
+

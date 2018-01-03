@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>9roads Daily Storage</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static 'vids/style.css' %}" type = "text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,900,900i&amp;subset=latin-ext" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<div class="text-container">
+			<h1>The storage</h1>
+			<a href="/ads/">Koukni se na naše reklam</a>
+		</div>
+	</nav>
+	<div class="container">
+		{% block content %}
+		{% endblock %}
+	</div>	
+</body>
+</html>
