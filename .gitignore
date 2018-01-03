@@ -3,4 +3,7 @@ include/
 lib/
 venv/
 
-**/*.DS_Store
+.DS_Store
+
+Daily/media
+Daily/db.sqlite3
