@@ -6,4 +6,4 @@ venv/
 .DS_Store
 
 Daily/media
-Daily/db.sqlite3
+*.sqlite3
